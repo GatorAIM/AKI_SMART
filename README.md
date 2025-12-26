@@ -4,6 +4,8 @@ Measuring patient similarity is crucial for precision medicine, facilitating pre
 
 The proposed framework, SMART (Similarity Measurement and Analysis for Risk Tracking), introduces three key enhancements: (1) adjusting patient similarity by overlap rate weighting (OW); (2) distance measure optimization (DO); and (3) feature type weight optimization (FO). These enhancements were evaluated across varying cohort sizes through internal and external validations using data from two tertiary academic hospitals to predict acute kidney injury (AKI).  
 
+![Workflow of the SMART framework](workflow-A.png)
+
 ## Notebook Description:
 01_Data_Preprocessing: Processing of the patient pool and internal test set data.  
 02_Overlap_Rates: Computing SCr and lab overlap rates.  
